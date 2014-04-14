@@ -143,4 +143,4 @@ executeSpecsInFolder = (options) ->
     jasmine.execute()
     return
 
-module.exports = { executeSpecsInFolder, loadHelpersInFolder}
+module.exports = { executeSpecsInFolder, loadHelpersInFolder, loadJasmine}
